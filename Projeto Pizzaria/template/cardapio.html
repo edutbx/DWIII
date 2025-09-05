@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio</title>
+</head>
+<body style="background-color: aqua;">
+    <form class="form" style=" display: flex; align-items: center; flex-direction: column; justify-content: center;">
+        <p>Selecione o sabor</p>
+        <label>
+            <input type="radio" name="opcao" value="opcao1"> Calabresa (+R$20.00)
+        </label><br>
+        <label>
+            <input type="radio" name="opcao" value="opcao2"> Mussarela (+R$20.00)
+        </label><br>
+        <label>
+            <input type="radio" name="opcao" value="opcao3"> Portuguesa (+R$40.00)
+        </label><br>
+
+        <br>
+      <p>Tamanho da Pizza</p>
+      <label><input type="radio" name="tamanho" value="Pequena"> Pequena (+R$5,00)</label><br>
+      <label><input type="radio" name="tamanho" value="Média" > Média (+R$10.00)</label><br>
+      <label><input type="radio" name="tamanho" value="Grande" > Grande (+R$20.00)</label><br>
+
+      <p>Borda recheada</p>
+      <label><input type="radio" name="borda" value="Catupiry"> Catupiry (+R$2,00)</label><br>
+      <label><input type="radio" name="borda" value="Cheddar" > Cheddar (+R$5.00)</label><br>
+      <label><input type="radio" name="borda" value="Chocolate" > Chocolate (+R$10.00)</label><br>
+
+      <p>Adicionais</p>
+      <label><input type="checkbox" name="adicional" value="Extra Queijo"> Extra de Queijo - R$ 7,00</label><br>
+      <label><input type="checkbox" name="adicional" value="Extra Bacon"> Extra de Bacon - R$ 15,00</label><br>
+      <label><input type="checkbox" name="adicional" value="Extra Azeitona"> Extra de Azeitona - R$ 4,00</label><br>
+    </form>
+    <button onclick="irPedido()">Enviar pedido</button>
+
+    <script>
+        function irPedido(){
+            window.location.href = `/pedido?`;
+        }
+
+  </script>
+</body>
+</html>

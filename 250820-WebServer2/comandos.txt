@@ -1,0 +1,10 @@
+npm init -y
+npm install chalk
+
+npm install require
+npm install jest
+npm install node-fetch
+
+teste
+npm run cli (erro)
+npm run cli validar (da certo)

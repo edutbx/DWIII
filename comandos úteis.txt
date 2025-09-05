@@ -1,0 +1,11 @@
+
+
+npm init -y (inicia o projeto)
+
+npm install dotenv ( é um módulo sem dependências que carrega variáveis ​​de ambiente de um .envarquivo para o process.env)
+
+npm install express (fornecer ferramentas pequenas e robustas para servidores HTTP)
+
+npm install nodemon (facilitador, reiniciando automaticamente o aplicativo Node quando alterações de arquivo no diretório são detectadas.
+
+npm install chalk(é uma biblioteca que permite colorir e estilizar texto no terminal ou console)
